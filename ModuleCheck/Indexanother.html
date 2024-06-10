@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules in JS!</title>
+
+
+    <script type="module">
+        import fun from "./mainanother.js"
+        window.fun = fun;
+    </script>
+
+
+</head>
+<body>
+
+
+    <h1> Welcome to JS modules!</h1>
+    <h4> check console</h4>
+    <button type="button" onclick="window.fun()"> Say Ola!</button>
+
+
+</body>
+</html>
